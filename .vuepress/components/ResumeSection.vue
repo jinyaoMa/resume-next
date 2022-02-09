@@ -18,6 +18,7 @@
         :style="{
           fontSize: $dimensions.size_subtitle,
           lineHeight: $dimensions.lheight_subtitle,
+          marginRight: $dimensions.margin_paragraph,
         }"
         >{{ options.title }}</span
       >
