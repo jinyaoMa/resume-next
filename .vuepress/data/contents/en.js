@@ -11,6 +11,10 @@ export default {
           content:
             "Mark is an international student currently enrolled in level 4 of B. Tech Software Engineering program at McMaster University who experience all the year around with Vue2 and Node.js but recently with Vue3, Gin and MySQL.",
         }),
+        createParagraph({
+          content:
+            "Mark is excelled in front-end development and RESTful API, and also like to pursue modularization and reusability in development.",
+        }),
       ],
     }),
     createSection({
@@ -53,7 +57,7 @@ export default {
         createParagraph({
           label: "Development Environments: ",
           content:
-            "VSCode, Android Studio, Git Bash, GitHub, LAMP, Swagger, Photoshop, Illustrator",
+            "VSCode, Android Studio, XCode, Git Bash, GitHub, LAMP, Swagger, Photoshop, Illustrator",
         }),
         createParagraph({
           label: "Database Platforms: ",
@@ -77,7 +81,11 @@ export default {
             createParagraph({
               content: "Bachelor of Technology - Software Engineering",
             }),
-            createParagraph({
+            createBullet({
+              content:
+                "Network Security, Agile, Kanban, Lean, Sustainability, etc.",
+            }),
+            createBullet({
               content: "Current GPA 10/12",
             }),
           ],
@@ -89,7 +97,14 @@ export default {
             createParagraph({
               content: "Computer Systems Technology - Software Development",
             }),
-            createParagraph({
+            createBullet({
+              content:
+                "Web development: HTML5 & CSS3, PHP, Javascript, ASP.NET, CodeIgniter, Laraval, Vue, React",
+            }),
+            createBullet({
+              content: "Mobile development: Java with Android SDK",
+            }),
+            createBullet({
               content: "Graduated in 2019 with GPA 92/100",
             }),
           ],

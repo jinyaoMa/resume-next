@@ -28,5 +28,8 @@ export default {
 <style lang="scss">
 .resume-body {
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 </style>

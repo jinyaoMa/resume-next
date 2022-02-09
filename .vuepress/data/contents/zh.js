@@ -9,7 +9,11 @@ export default {
       children: [
         createParagraph({
           content:
-            "小马是一位就读于麦克马斯特大学工程系技术学院软件工程专业的在读4年级留学生，并且一年到头都在使用 Vue2 和 Node.js，而最近也已经在使用 Vue3，Gin 和 MySQL。",
+            "小马 是一位就读于 麦克马斯特大学工程系技术学院软件工程专业 的 在读4年级 留学生，并且 一年到头 都在使用 Vue2 和 Node.js，而 最近 也已经在使用 Vue3，Gin 和 MySQL。",
+        }),
+        createParagraph({
+          content:
+            "小马 比较擅长 前端 和 RESTful API 的开发，还喜欢在开发中追求代码的模块化和复用性。",
         }),
       ],
     }),
@@ -43,7 +47,7 @@ export default {
       ],
     }),
     createSection({
-      title: "技术技能",
+      title: "技术类技能",
       children: [
         createParagraph({
           label: "编程语言：",
@@ -69,6 +73,17 @@ export default {
         }),
       ],
     }),
+    createSection({
+      title: "兴趣爱好",
+      children: [
+        createParagraph({
+          content: "新建 GitHub 仓库，不断提交更改",
+        }),
+        createParagraph({
+          content: "研究前端 UI Kit，喜欢看得见的开发",
+        }),
+      ],
+    }),
   ],
   body: [
     createSection({
@@ -81,8 +96,11 @@ export default {
             createParagraph({
               content: "本科 - 工程系技术学院 - 软件工程",
             }),
-            createParagraph({
-              content: "目前平均学分绩点 GPA 10/12",
+            createBullet({
+              content: "网络安全, 敏捷开发, 看板管理, 精益概念 等等",
+            }),
+            createBullet({
+              content: "当前平均学分绩点 GPA 10/12",
             }),
           ],
         }),
@@ -93,7 +111,14 @@ export default {
             createParagraph({
               content: "专科 - 计算机系统技术课程 - 软件开发",
             }),
-            createParagraph({
+            createBullet({
+              content:
+                "Web 开发：HTML5 & CSS3, PHP, Javascript, ASP.NET, CodeIgniter, Laraval, Vue, React",
+            }),
+            createBullet({
+              content: "移动开发：Java, Android SDK",
+            }),
+            createBullet({
               content: "毕业平均学分绩点 GPA 92/100",
             }),
           ],
