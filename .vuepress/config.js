@@ -2,7 +2,7 @@ const { path } = require("@vuepress/utils");
 
 module.exports = {
   base: "/resume-next/",
-  head: [["link", { rel: "icon", href: "/favicon.ico" }]],
+  head: [["link", { rel: "icon", href: "/resume-next/favicon.ico" }]],
   locales: {
     "/": {
       lang: "en-US",

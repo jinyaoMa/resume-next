@@ -1,3 +1,7 @@
+---
+title: 马锦尧
+---
+
 ::: details 实际要编辑的文件
 中文版简历的实际源文件名为 **`zh.js`**，存放在 **`<project>/.vuepress/data/contents/`** 文件夹下。
 :::

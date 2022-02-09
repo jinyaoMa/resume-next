@@ -1,3 +1,7 @@
+---
+title: Jinyao Ma
+---
+
 ::: details ACTUAL FILE TO EDIT
 The actual source of the English version resume is in folder **`<project>/.vuepress/data/contents/`** with filename **`en.js`**.
 :::

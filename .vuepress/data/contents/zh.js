@@ -76,7 +76,7 @@ export default {
       children: [
         createSection({
           title: "麦克马斯特大学",
-          time: "2020年5月 至 今",
+          time: "2020年5月 至今",
           children: [
             createParagraph({
               content: "本科 - 工程系技术学院 - 软件工程",
