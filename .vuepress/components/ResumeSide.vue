@@ -13,7 +13,7 @@
     <img
       v-if="$resume.avatar"
       class="avatar"
-      :src="$resume.avatar"
+      :src="$withBase($resume.avatar)"
       :style="{
         height: $dimensions.size_avatar,
         width: $dimensions.size_avatar,
