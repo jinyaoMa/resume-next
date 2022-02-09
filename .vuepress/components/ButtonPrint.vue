@@ -35,6 +35,7 @@ export default {
         document.body.style.display = "flex";
         document.body.style.minHeight = "100vh";
         document.body.innerHTML = document.querySelector(".resume").innerHTML;
+        document.body.classList.add("resume");
       };
       window.onafterprint = () => {
         window.location.reload();

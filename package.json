@@ -1,6 +1,6 @@
 {
   "name": "resume-next",
-  "version": "1.0.0-20220209.0404",
+  "version": "1.0.0-20220209.1254",
   "description": "My Resume",
   "main": "index.js",
   "scripts": {

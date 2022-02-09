@@ -16,7 +16,8 @@
     >
       {{ options.label }}
     </div>
-    <div>{{ options.content }}</div>
+    <div v-if="hasLink" v-html="htmlContent" />
+    <div v-else>{{ options.content }}</div>
   </div>
 </template>
 
@@ -27,6 +28,19 @@ export default {
   computed: {
     marginBottom() {
       return this.options.margin ? this.$dimensions.margin_paragraph : 0;
+    },
+    hasLink() {
+      return /http[s]?:\/\/[^\s|<|>]+/.test(this.options.content);
+    },
+    htmlContent() {
+      let content = this.options.content + "";
+      let links = content.match(/http[s]?:\/\/[^\s|<|>]+/g);
+      if (links) {
+        links.forEach((l) => {
+          content = content.replace(l, `<a href="${l}" title="${l}">${l}</a>`);
+        });
+      }
+      return content;
     },
   },
 };

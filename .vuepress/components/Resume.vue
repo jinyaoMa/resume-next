@@ -42,11 +42,18 @@ export default {
   border-radius: 4px;
   box-shadow: 1px 1px 4px;
   overflow: hidden;
-  @media (max-width: 888px) {
-    flex-direction: column;
-    > div {
-      width: 100% !important;
+  @media screen {
+    @media (max-width: 888px) {
+      flex-direction: column;
+      > div {
+        width: 100% !important;
+      }
     }
+  }
+  a {
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
   }
 }
 .resume__bar {
@@ -74,17 +81,19 @@ export default {
     filter: brightness(0.8);
   }
 }
-body.blackNwhite {
-  * {
-    color: #000000 !important;
-    border-color: #000000 !important;
-  }
-  .resume-side,
-  .resume-section-head {
-    background-color: transparent !important;
-  }
-  .resume__bar {
-    display: none;
+body {
+  &.blackNwhite {
+    * {
+      color: #000000 !important;
+      border-color: #000000 !important;
+    }
+    .resume-side,
+    .resume-section-head {
+      background-color: transparent !important;
+    }
+    .resume__bar {
+      display: none;
+    }
   }
 }
 </style>

@@ -8,17 +8,28 @@
     <div
       class="resume-section-head"
       :style="{
-        fontSize: $dimensions.size_subtitle,
-        lineHeight: $dimensions.lheight_subtitle,
         paddingLeft: $dimensions.padding_small,
         borderTopWidth: $dimensions.size_border,
         borderBottomWidth: $dimensions.size_border,
       }"
     >
-      <span class="resume-section-head__title">{{ options.title }}</span>
-      <span v-if="options.time" class="resume-section-head__time">{{
-        options.time
-      }}</span>
+      <span
+        class="resume-section-head__title"
+        :style="{
+          fontSize: $dimensions.size_subtitle,
+          lineHeight: $dimensions.lheight_subtitle,
+        }"
+        >{{ options.title }}</span
+      >
+      <span
+        v-if="options.time"
+        class="resume-section-head__time"
+        :style="{
+          fontSize: $dimensions.size_paragraph,
+          lineHeight: $dimensions.lheight_paragraph,
+        }"
+        >{{ options.time }}</span
+      >
     </div>
     <div
       class="resume-section-body"
@@ -67,7 +78,9 @@ export default {
 .resume-section-head {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
   &__title {
     font-weight: bold;
   }

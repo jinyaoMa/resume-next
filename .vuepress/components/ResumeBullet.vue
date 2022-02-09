@@ -7,7 +7,8 @@
       fontSize: $dimensions.size_paragraph,
     }"
   >
-    {{ options.content }}
+    <span v-if="hasLink" v-html="htmlContent" />
+    <span v-else>{{ options.content }}</span>
   </div>
 </template>
 
@@ -18,6 +19,19 @@ export default {
   computed: {
     marginBottom() {
       return this.options.margin ? this.$dimensions.margin_paragraph : 0;
+    },
+    hasLink() {
+      return /http[s]?:\/\/[^\s|<|>]+/.test(this.options.content);
+    },
+    htmlContent() {
+      let content = this.options.content + "";
+      let links = content.match(/http[s]?:\/\/[^\s|<|>]+/g);
+      if (links) {
+        links.forEach((l) => {
+          content = content.replace(l, `<a href="${l}" title="${l}">${l}</a>`);
+        });
+      }
+      return content;
     },
   },
 };
