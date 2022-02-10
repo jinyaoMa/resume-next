@@ -6,6 +6,10 @@ title: Jinyao Ma
 The actual source of the English version resume is in folder **`<project>/.vuepress/data/contents/`** with filename **`en.js`**.
 :::
 
+::: details ACTUAL CODE
+@[code js:no-line-numbers](.vuepress/data/contents/en.js)
+:::
+
 <Resume />
 
 ::: tip PRINT RESUME

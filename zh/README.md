@@ -6,6 +6,10 @@ title: 马锦尧
 中文版简历的实际源文件名为 **`zh.js`**，存放在 **`<project>/.vuepress/data/contents/`** 文件夹下。
 :::
 
+::: details 实际代码
+@[code js:no-line-numbers](../.vuepress/data/contents/zh.js)
+:::
+
 <Resume />
 
 ::: tip 打印简历
