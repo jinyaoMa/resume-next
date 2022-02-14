@@ -73,6 +73,10 @@ export default {
       border-style: solid;
       border-left-width: 0;
       border-right-width: 0;
+      @media print {
+        border-top-width: 1px !important;
+        border-bottom-width: 1px !important;
+      }
     }
   }
 }

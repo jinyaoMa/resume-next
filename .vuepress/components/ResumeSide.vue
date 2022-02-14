@@ -57,6 +57,9 @@ export default {
       border-right-style: none;
     }
   }
+  @media print {
+    border-right-width: 1px !important;
+  }
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
