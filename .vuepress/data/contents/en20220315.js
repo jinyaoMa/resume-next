@@ -186,7 +186,7 @@ export default {
           title: "VuePress Theme",
           children: [
             createParagraph({
-              content: "Individual | Jun. 2020 to Sept. 2020",
+              content: "Individual | June 2020 to Sept. 2020",
             }),
             createBullet({
               content: "https://github.com/jinyaoMa/vuepress-theme-mustom",
