@@ -93,5 +93,8 @@ export default {
   &__time {
     font-size: 0.8em;
   }
+  > span {
+    transform: translateY(1pt);
+  }
 }
 </style>

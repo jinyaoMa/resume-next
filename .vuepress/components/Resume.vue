@@ -33,12 +33,13 @@ export default {
 
 <style lang="scss">
 .resume {
+  font-family: Arial, Calibri, sans-serif;
   display: flex;
   flex-direction: row;
   border-radius: 4px;
-  box-shadow: 1px 1px 4px;
   overflow: hidden;
   @media screen {
+    box-shadow: 1px 1px 4px;
     @media (max-width: 888px) {
       flex-direction: column;
       > div {
@@ -79,6 +80,8 @@ export default {
 }
 body {
   &.blackNwhite {
+    padding: 10mm;
+    box-sizing: border-box;
     * {
       color: #000000 !important;
       border-color: #000000 !important;
@@ -86,6 +89,23 @@ body {
     .resume-side,
     .resume-section-head {
       background-color: transparent !important;
+    }
+    .resume-side {
+      justify-content: space-between;
+      padding-right: 2mm;
+      .resume-section-head {
+        padding-left: 0 !important;
+      }
+      .resume-section-body {
+        padding-left: 0 !important;
+      }
+      .name {
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+      }
+    }
+    .resume-body > .resume-section:first-child {
+      margin-top: 0 !important;
     }
     .resume__bar {
       display: none;

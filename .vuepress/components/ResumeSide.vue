@@ -26,7 +26,9 @@
       :style="{
         fontSize: $dimensions.size_title,
         lineHeight: $dimensions.lheight_title,
-        margin: $dimensions.padding_small,
+        marginTop: $dimensions.padding_small,
+        marginLeft: $dimensions.padding_small,
+        marginRight: $dimensions.padding_small,
       }"
     >
       {{ $resume.name }}
@@ -60,10 +62,10 @@ export default {
   }
   @media print {
     border-right-width: 1px !important;
+    justify-content: space-evenly;
   }
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
 }
 .name {
   font-weight: bold;

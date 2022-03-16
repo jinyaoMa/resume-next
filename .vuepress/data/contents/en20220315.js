@@ -5,6 +5,21 @@ export default {
   avatar: "",
   side: [
     createSection({
+      children: [
+        createParagraph({
+          content:
+            "Mark is currently a year-3 international student enrolled in B. Tech Software Engineering program at McMaster University who experience all the year around with Vue and Gin.",
+        }),
+        createParagraph({
+          content:
+            "He is excelled in front-end development and RESTful API, and also like to research about modularization and reusability in development.",
+        }),
+        createParagraph({
+          content: "He is getting familiar with React and TypeScript.",
+        }),
+      ],
+    }),
+    createSection({
       title: "CONTACT INFORMATION",
       children: [
         createParagraph({
@@ -25,7 +40,7 @@ export default {
         }),
         createParagraph({
           label: "LinkedIn: ",
-          content: "https://www.linkedin.com/in/jinyaoMa",
+          content: "https://linkedin.com/in/jinyaoMa",
         }),
       ],
     }),
@@ -70,21 +85,6 @@ export default {
   ],
   body: [
     createSection({
-      children: [
-        createParagraph({
-          content:
-            "Mark is currently a year-3 international student enrolled in B. Tech Software Engineering program at McMaster University who experience all the year around with Vue and Gin.",
-        }),
-        createParagraph({
-          content:
-            "He is excelled in front-end development and RESTful API, and also like to research about modularization and reusability in development.",
-        }),
-        createParagraph({
-          content: "He is getting familar with React and TypeScript.",
-        }),
-      ],
-    }),
-    createSection({
       title: "EDUCATION",
       children: [
         createSection({
@@ -125,6 +125,39 @@ export default {
       ],
     }),
     createSection({
+      title: "WORK EXPERIENCE",
+      children: [
+        createSection({
+          title: "Junior Software Developer",
+          children: [
+            createParagraph({
+              content: "Jiangmen Puzheng IT Co., Ltd. | June 2019 to Aug. 2019",
+            }),
+            createBullet({
+              content:
+                "Vue, JavaScript, .NET MVC, RESTful API, Oracle DB, Element UI",
+            }),
+            createBullet({
+              content:
+                "Responsible for developing and testing web applications using HTML/CSS/JavaScript",
+            }),
+            createBullet({
+              content:
+                "Data query, feature development and debug in large database",
+            }),
+            createBullet({
+              content:
+                "Development of multiple web pages with CRUD functionalities and data presentation",
+            }),
+            createBullet({
+              content:
+                "Unit testing the custom UI components using Jest to deliver reliable user experience",
+            }),
+          ],
+        }),
+      ],
+    }),
+    createSection({
       title: "PROJECTS",
       children: [
         createSection({
@@ -137,11 +170,15 @@ export default {
               content: "https://github.com/jinyaoMa/go-experiment",
             }),
             createBullet({
-              content: "Vue, Axios, Fontawesome, Node.js, Gin, Gorm, SQLite",
+              content: "Vue, Axios, Fontawesome, Node, Gin, Gorm, SQLite",
             }),
             createBullet({
               content:
-                "Simple CMS to store and operate files with OS I/O operations",
+                "Simple network storage to store and operate files with OS I/O operations",
+            }),
+            createBullet({
+              content:
+                "Development of simple UI and file access functions to access media in PC via smartphone",
             }),
           ],
         }),
@@ -155,13 +192,17 @@ export default {
               content: "https://github.com/jinyaoMa/vuepress-theme-mustom",
             }),
             createBullet({
-              content: "VuePress, Vue, Fontawesome, Axios, Node.js",
+              content: "VuePress, Vue, Fontawesome, Axios, Node",
             }),
             createBullet({
-              content: "More than 22 stars on GitHub",
+              content:
+                "Redesign of Hexo theme UI and move to VuePress with better look",
             }),
             createBullet({
-              content: "More than 6 forks on GitHub",
+              content: "Get better understanding to UI kit development in Vue",
+            }),
+            createBullet({
+              content: "More than 22 stars and 6 forks on GitHub",
             }),
           ],
         }),
@@ -175,13 +216,18 @@ export default {
               content: "https://github.com/jinyaoMa/hexo-theme-mustom",
             }),
             createBullet({
-              content: "Hexo, Fontawesome, Axios, Node.js",
+              content: "Hexo, EJS, stylus, Fontawesome, Axios, Node",
             }),
             createBullet({
-              content: "More than 38 stars on GitHub",
+              content:
+                "Design a special blog theme that is really different to others",
             }),
             createBullet({
-              content: "More than 8 forks on GitHub",
+              content:
+                "Get better understanding to CSS features and SSR on Node",
+            }),
+            createBullet({
+              content: "More than 38 stars and 8 forks on GitHub",
             }),
           ],
         }),

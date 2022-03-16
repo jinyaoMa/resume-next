@@ -2,10 +2,10 @@
   <div
     class="resume-bullet"
     :style="{
-      listStyle: options.style,
       marginBottom,
       fontSize: $dimensions.size_paragraph,
     }"
+    :data-style="options.style"
   >
     <span v-if="hasLink" v-html="htmlContent" />
     <span v-else>{{ options.content }}</span>
@@ -40,5 +40,9 @@ export default {
 <style lang="scss">
 .resume-bullet {
   display: list-item;
+  &::marker {
+    content: attr(data-style);
+    font-weight: bold;
+  }
 }
 </style>

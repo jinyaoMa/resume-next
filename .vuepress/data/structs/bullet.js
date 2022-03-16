@@ -1,6 +1,6 @@
 const bullet = {
   $type: "bullet",
-  style: "square", // disc, square, decimal, etc. value from CSS
+  style: "-  ",
   content: "Ex aliquip nulla irure aliqua enim duis eiusmod.",
   margin: false, // enable margin after bullet point
 };
