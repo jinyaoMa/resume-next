@@ -19,19 +19,15 @@
         }"
       ></div>
     </div>
-    <resume-side />
-    <resume-body />
+    <resume-side :date="date" />
+    <resume-body :date="date" />
   </div>
 </template>
 
 <script>
 export default {
   name: "Resume",
-  mounted() {
-    console.log(this.$resume);
-    console.log(this.$dimensions);
-    console.log(this.$colors);
-  },
+  props: ["date"],
 };
 </script>
 

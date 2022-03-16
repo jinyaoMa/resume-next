@@ -1,6 +1,6 @@
 const section = {
   $type: "section",
-  title: "Section",
+  title: "",
   time: "", // if not empty, float on the right of title
   children: [],
 };

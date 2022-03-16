@@ -24,11 +24,23 @@ module.exports = {
     editLink: true,
     locales: {
       "/": {
+        navbar: [
+          {
+            text: "Choose a version",
+            children: ["/README.md", "/v20220209.md"],
+          },
+        ],
         selectLanguageText: "Choose a language",
         selectLanguageName: "English",
         editLinkText: "Edit my resume",
       },
       "/zh/": {
+        navbar: [
+          {
+            text: "选择版本",
+            children: ["/zh/README.md"],
+          },
+        ],
         selectLanguageText: "选择语言",
         selectLanguageName: "简体中文",
         editLinkText: "编辑我的简历",

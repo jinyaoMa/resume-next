@@ -22,6 +22,7 @@
 <script>
 export default {
   name: "ResumeBody",
+  props: ["date"],
 };
 </script>
 
@@ -30,6 +31,6 @@ export default {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
 }
 </style>

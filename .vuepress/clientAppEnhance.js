@@ -1,6 +1,6 @@
 import { dimensions, colors, contents } from "./data";
 
-export default ({ app, router }) => {
+export default ({ app, router, siteData }) => {
   app.mixin({
     computed: {
       $dimensions() {

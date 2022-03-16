@@ -6,6 +6,7 @@
     }"
   >
     <div
+      v-if="options.title"
       class="resume-section-head"
       :style="{
         paddingLeft: $dimensions.padding_small,
