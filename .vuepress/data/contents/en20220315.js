@@ -73,7 +73,7 @@ export default {
       children: [
         createParagraph({
           content:
-            "Mark is currently an international student enrolled in B. Tech Software Engineering program at McMaster University who experience all the year around with Vue and Gin.",
+            "Mark is currently a year-3 international student enrolled in B. Tech Software Engineering program at McMaster University who experience all the year around with Vue and Gin.",
         }),
         createParagraph({
           content:
