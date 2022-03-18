@@ -131,7 +131,7 @@ export default {
             }),
             createBullet({
               content:
-                "Data query, feature development and debuging in large database, resulting in rich cooperation with colleagues, and also 20+ APIs and 30+ report generator templates built and documented",
+                "Data query, feature development and debugging in large database, resulting in rich cooperation with colleagues, and also 20+ APIs and 30+ report generator templates built and documented",
             }),
             createBullet({
               content:
@@ -159,7 +159,7 @@ export default {
             }),
             createBullet({
               content:
-                "Develop a network storage with simple UI and file access functions, resulting in 2x of convenience via increased accessiblity to media in server",
+                "Develop a network storage with simple UI and file access functions, resulting in 2x of convenience via increased accessibility to media in server",
             }),
           ],
         }),
@@ -178,7 +178,7 @@ export default {
             }),
             createBullet({
               content:
-                "Experiment with documentation tool, resulting in more than 60% reuseable code via increased understanding to UI development",
+                "Experiment with documentation tool, resulting in more than 60% reusable code via increased understanding to UI development",
             }),
           ],
         }),
