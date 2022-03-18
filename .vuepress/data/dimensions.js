@@ -1,5 +1,5 @@
 export const dimensions = {
-  side_width: "188pt",
+  side_width: "200pt",
   padding: "15pt",
   padding_small: "10pt",
   margin_paragraph: "2pt",

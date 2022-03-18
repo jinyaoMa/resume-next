@@ -48,29 +48,24 @@ export default {
       title: "TECHNICAL SKILLS",
       children: [
         createParagraph({
+          label: "Front End: ",
+          content:
+            "Vue, React, jQuery, Element UI, Ant Design, Bootstrap, Tailwind, Fontawesome, Axios (Ajax), ECharts, Webpack",
+        }),
+        createParagraph({
+          label: "Back End: ",
+          content:
+            "Gin, Gorm, JWT, Express, Node, EJS, Laravel, CodeIgniter, ASP.NET MVC, RESTful API",
+        }),
+        createParagraph({
           label: "Languages for Development: ",
           content:
             "JavaScript (ES6+), HTML, CSS (Stylus, Less, Sass), TypeScript, Go, Java, Python, PHP",
         }),
         createParagraph({
-          label: "Tools for Development: ",
-          content: "VS Code, Android Studio, Git, Photoshop, Illustrator",
-        }),
-        createParagraph({
-          label: "JavaScript Frameworks: ",
-          content: "Vue, React, jQuery",
-        }),
-        createParagraph({
-          label: "CSS Frameworks: ",
-          content: "Bootstrap, Tailwind",
-        }),
-        createParagraph({
-          label: "Web Frameworks: ",
-          content: "Gin, Express, Laravel",
-        }),
-        createParagraph({
-          label: "UI Kits: ",
-          content: "Element UI, Ant Design",
+          label: "Development/Documentation Tools: ",
+          content:
+            "VS Code, Android Studio, Git, Photoshop, Illustrator, VuePress, dumi, Hexo",
         }),
         createParagraph({
           label: "Database Platforms: ",
@@ -112,10 +107,7 @@ export default {
             }),
             createBullet({
               content:
-                "Web development: HTML5 & CSS3, PHP, JavaScript, ASP.NET, CodeIgniter, Laravel, Vue, React",
-            }),
-            createBullet({
-              content: "Mobile development: Java with Android SDK",
+                "Web and mobile development fundamentals, Vue/React + Express.js/Laravel/ASP.NET, Android development in Java",
             }),
             createBullet({
               content: "Graduated in 2019 with GPA 92/100",
@@ -135,23 +127,19 @@ export default {
             }),
             createBullet({
               content:
-                "Vue, JavaScript, .NET MVC, RESTful API, Oracle DB, Element UI",
-            }),
-            createBullet({
-              content:
                 "Responsible for developing and testing web applications using HTML/CSS/JavaScript",
             }),
             createBullet({
               content:
-                "Data query, feature development and debug in large database",
+                "Data query, feature development and debuging in large database, resulting in rich cooperation with colleagues, and also 20+ APIs and 30+ report generator templates built and documented",
             }),
             createBullet({
               content:
-                "Development of multiple web pages with CRUD functionalities and data presentation",
+                "Development of multiple web pages with CRUD functionalities and data presentation, resulting in successful project delivery with 10+ web forms and 6+ charts built",
             }),
             createBullet({
               content:
-                "Unit testing the custom UI components using Jest to deliver reliable user experience",
+                "Unit testing the custom UI components using Jest, resulting in reliable user experience",
             }),
           ],
         }),
@@ -170,15 +158,8 @@ export default {
               content: "https://github.com/jinyaoMa/go-experiment",
             }),
             createBullet({
-              content: "Vue, Axios, Fontawesome, Node, Gin, Gorm, SQLite",
-            }),
-            createBullet({
               content:
-                "Simple network storage to store and operate files with OS I/O operations",
-            }),
-            createBullet({
-              content:
-                "Development of simple UI and file access functions to access media in PC via smartphone",
+                "Develop a network storage with simple UI and file access functions, resulting in 2x of convenience via increased accessiblity to media in server",
             }),
           ],
         }),
@@ -192,17 +173,12 @@ export default {
               content: "https://github.com/jinyaoMa/vuepress-theme-mustom",
             }),
             createBullet({
-              content: "VuePress, Vue, Fontawesome, Axios, Node",
+              content:
+                "Redesign of Hexo theme UI and move to VuePress, resulting in an extra 22+ stars and 6+ forks on GitHub due to a better look",
             }),
             createBullet({
               content:
-                "Redesign of Hexo theme UI and move to VuePress with better look",
-            }),
-            createBullet({
-              content: "Get better understanding to UI kit development in Vue",
-            }),
-            createBullet({
-              content: "More than 22 stars and 6 forks on GitHub",
+                "Experiment with documentation tool, resulting in more than 60% reuseable code via increased understanding to UI development",
             }),
           ],
         }),
@@ -216,18 +192,12 @@ export default {
               content: "https://github.com/jinyaoMa/hexo-theme-mustom",
             }),
             createBullet({
-              content: "Hexo, EJS, stylus, Fontawesome, Axios, Node",
+              content:
+                "Design a special blog theme, resulting in 38+ stars and 8+ forks on GitHub due to the theme's special layout and style",
             }),
             createBullet({
               content:
-                "Design a special blog theme that is really different to others",
-            }),
-            createBullet({
-              content:
-                "Get better understanding to CSS features and SSR on Node",
-            }),
-            createBullet({
-              content: "More than 38 stars and 8 forks on GitHub",
+                "Experiment with static blog generator, resulting in 2x faster coding speed via increased understanding to CSS features",
             }),
           ],
         }),
