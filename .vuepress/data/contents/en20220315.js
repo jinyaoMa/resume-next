@@ -93,9 +93,6 @@ export default {
               content:
                 "Network Security, Agile, Kanban, Lean, Sustainability, etc.",
             }),
-            createBullet({
-              content: "Current GPA 10/12",
-            }),
           ],
         }),
         createSection({
