@@ -1,4 +1,4 @@
-const { path } = require("@vuepress/utils");
+const { path } = require("@vuepress/utils")
 
 module.exports = {
   base: "/resume-next/",
@@ -27,7 +27,7 @@ module.exports = {
         navbar: [
           {
             text: "Choose a version",
-            children: ["/README.md", "/v20220209.md"],
+            children: ["/README.md", "/v20220315.md", "/v20220209.md"],
           },
         ],
         selectLanguageText: "Choose a language",
@@ -55,4 +55,4 @@ module.exports = {
       },
     ],
   ],
-};
+}
