@@ -38,7 +38,7 @@ module.exports = {
         navbar: [
           {
             text: "选择版本",
-            children: ["/zh/README.md"],
+            children: ["/zh/README.md", "/zh/v20220209.md"],
           },
         ],
         selectLanguageText: "选择语言",
